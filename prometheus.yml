@@ -34,9 +34,9 @@ submission:
     - Honest records with a right to be forgotten — an append-only timeline and recorded reasons for every stage change, plus forget_contact to erase a person's data while keeping pipeline numbers true.
   tags: [crm, leads, sales, follow-ups, pipeline, contacts]
   visuals:
-    icon_url: TODO
-    banner_url: TODO
+    icon_url: https://github.com/gypsychick61/crm-lead-ledger/releases/download/v0.1.0-assets/icon-crm-lead-ledger.webp
+    banner_url: https://github.com/gypsychick61/crm-lead-ledger/releases/download/v0.1.0-assets/banner-crm-lead-ledger.webp
     gallery_images:
-      - TODO
-  git_commit: TODO
+      - https://github.com/gypsychick61/crm-lead-ledger/releases/download/v0.1.0-assets/banner-crm-lead-ledger.webp
+  git_commit: bde49c316e7c8fbf8a3adff2657cc836f182beb3
   wasm_path: .dfx/local/canisters/crm_lead_ledger/crm_lead_ledger.wasm
