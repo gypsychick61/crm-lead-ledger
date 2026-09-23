@@ -1,0 +1,42 @@
+name: crm-lead-ledger
+namespace: io.github.gypsychick61.crm-lead-ledger
+title: CRM & Lead Ledger
+version: 0.1.0
+description: Contacts, interaction history, follow-ups, and deals as canister state — with an inquiry inbox any customer's agent can write to. Your agent starts each day with what's overdue, who's waiting on a reply, and which leads went cold.
+category: Business
+mcp_path: /mcp
+repo_url: https://github.com/gypsychick61/crm-lead-ledger
+payment: null
+tags: [crm, leads, sales, follow-ups, pipeline, contacts]
+submission:
+  name: CRM & Lead Ledger
+  description: Contacts, interaction history, follow-ups, and deals as canister state — with an inquiry inbox any customer's agent can write to. Your agent starts each day with what's overdue, who's waiting on a reply, and which leads went cold.
+  publisher: gypsychick61
+  category: Business
+  deployment_type: global
+  repo_url: https://github.com/gypsychick61/crm-lead-ledger
+  mcp_path: /mcp
+  why_this_app: >-
+    The store can now book a job and bill it, but nothing remembers the customer
+    before they book — the call on Tuesday, the quote on Thursday, the follow-up
+    nobody made. That is where a small service business loses most of its
+    revenue, and it is exactly what an agent is good at: remembering to call
+    back. This is the CRM for that, with one thing a hosted CRM cannot offer: an
+    open inbox. A listed business can be found by any customer's agent, which
+    files an inquiry that lands as a lead on the business's agenda, and reads
+    the reply without a human in the middle. Winning a deal hands off to
+    Dispatch Scheduler and Invoice Desk as ready-made arguments, so lead, job,
+    and invoice are one chain across three servers.
+  key_features:
+    - An inquiry inbox for agents — find_businesses and submit_inquiry are open to any authenticated principal, so a customer's agent can reach a business directly; replies come back through my_inquiries, and spam limits cap what any one sender can file.
+    - get_agenda is the whole morning — overdue and due-today follow-ups, inquiries waiting on a reply, stale leads nobody is working, and deals past their expected close, in one call.
+    - Duplicates refused, not silently created — email, phone in any format, and name+company are matched before a contact is saved, and merge_contacts folds a duplicate in without dropping a detail.
+    - Honest records with a right to be forgotten — an append-only timeline and recorded reasons for every stage change, plus forget_contact to erase a person's data while keeping pipeline numbers true.
+  tags: [crm, leads, sales, follow-ups, pipeline, contacts]
+  visuals:
+    icon_url: TODO
+    banner_url: TODO
+    gallery_images:
+      - TODO
+  git_commit: TODO
+  wasm_path: .dfx/local/canisters/crm_lead_ledger/crm_lead_ledger.wasm

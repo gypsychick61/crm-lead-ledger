@@ -1,0 +1,15 @@
+[package]
+name = "crm-lead-ledger"
+version = "0.1.0"
+description = "CRM & Lead Ledger MCP server for the Prometheus Protocol app store — contacts, interaction history, follow-ups, and deals as canister state, with an open inquiry inbox any customer's agent can write to"
+
+[dependencies]
+base = "0.16.0"
+json = "1.4.0"
+map = "9.0.1"
+http-types = "1.0.1"
+ic = "3.2.0"
+mcp-motoko-sdk = "2.0.2"
+
+[toolchain]
+moc = "0.16.0"
