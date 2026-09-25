@@ -35,8 +35,8 @@ submission:
   tags: [crm, leads, sales, follow-ups, pipeline, contacts]
   visuals:
     icon_url: https://github.com/gypsychick61/crm-lead-ledger/releases/download/v0.1.0-assets/icon-crm-lead-ledger.webp
-    banner_url: https://github.com/gypsychick61/crm-lead-ledger/releases/download/v0.1.0-assets/banner-crm-lead-ledger.webp
+    banner_url: https://github.com/gypsychick61/crm-lead-ledger/releases/download/v0.1.1-assets/banner-crm-lead-ledger.webp
     gallery_images:
-      - https://github.com/gypsychick61/crm-lead-ledger/releases/download/v0.1.0-assets/banner-crm-lead-ledger.webp
+      - https://github.com/gypsychick61/crm-lead-ledger/releases/download/v0.1.1-assets/banner-crm-lead-ledger.webp
   git_commit: bde49c316e7c8fbf8a3adff2657cc836f182beb3
   wasm_path: .dfx/local/canisters/crm_lead_ledger/crm_lead_ledger.wasm
